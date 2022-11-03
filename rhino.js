@@ -1,10 +1,15 @@
 if (common.getlpparam().packageName == 'teavideo.tvplayer.videoallformat') {
+  common.hookMethod('com.android.billingclient.api.m$b', 'b', [], (param) => {
+    param.setResult([{}]);
+  });
   common.hookMethod(
-    'com.android.billingclient.api.m$b',
-    'b',
-    [],
-    function (param) {
-      param.setResult([{}]);
+    'teavideo.tvplayer.videoallformat.player.PlayerActivity$a',
+    'a',
+    ['com.android.billingclient.api.h'],
+    null,
+    null,
+    (param) => {
+      param.setResult(null);
     }
   );
 }

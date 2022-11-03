@@ -1,7 +1,16 @@
-TPlayer Premium Unlocker - Rooted / Unrooted
+## TPlayer Premium Unlocker - Rooted / Un-rooted
+### Note
+* #### Tested: v6.1b
+* #### Compatibility: Rooted | Un-rooted
 
-Tested: v6.1b
-Compatible: Rooted | Unrooted
+### Unrooted:
+* Requires 'Inject Hook service'
+### Changelog
+#### v1.1
+* Fixed video player bug which force closes after openning
 
-NOTE (Unrooted):
-* Requires, Inject Hook service
+#### v1.0
+* Initial release
+### Authors
+- [@rockz5555](https://www.github.com/rockz5555)
+![Logo](https://apkvision.com/wp-content/uploads/2021/11/24295748-140x140.png)
