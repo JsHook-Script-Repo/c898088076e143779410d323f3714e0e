@@ -8,8 +8,6 @@ if (common.getlpparam().packageName == 'teavideo.tvplayer.videoallformat') {
     ['com.android.billingclient.api.h'],
     null,
     null,
-    (param) => {
-      param.setResult(null);
-    }
+    (param) => null
   );
 }
