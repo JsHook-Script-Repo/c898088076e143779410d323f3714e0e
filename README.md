@@ -13,6 +13,10 @@
 
 #### Changelog
 
+**v1.2**
+
+*   Hook simplified
+
 **v1.1**
 
 *   Fixed video player bug which forces it to close after opening
